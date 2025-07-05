@@ -1,14 +1,13 @@
-import { useState } from 'react'
-import './App.module.css'
+import { useState } from 'react';
+import styles from './App.module.css';
+import { Navbar } from './components/navbar/navbar';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div className={StyleSheet.App}>
-      Hello World!
+    <div className={styles.App}>
+      <Navbar/>
     </div>
-  )
+  );
 }
 
 export default App
