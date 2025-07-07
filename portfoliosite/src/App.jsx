@@ -1,6 +1,5 @@
-import { useState } from 'react';
 import styles from './App.module.css';
-import { Navbar } from './components/navbar/navbar';
+import { Navbar } from './components/Navbar/Navbar';
 
 function App() {
   return (
@@ -10,4 +9,4 @@ function App() {
   );
 }
 
-export default App
+export default App;
