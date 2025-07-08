@@ -1,0 +1,107 @@
+@import "../../vars.css";
+
+.container {
+    position: relative;
+    background-color: var(--color-bg);
+    border-radius: 15px;
+    padding: 73px;
+    margin-top: 129px;
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+
+.title {
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    color: var(--color-text);
+    text-transform: uppercase;
+    letter-spacing: 1.75px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.skillList {
+    list-style: none;
+
+    color: var(--color-text);
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+}
+
+.skill {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 20px;
+    list-style: none;
+    padding: 25px;
+
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 70%, rgba(255, 255, 255, 0) 120%);
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: 0.4s;
+}
+
+.skillIcon {
+    font-size: 60px;
+    margin-right: 20px;
+    color: var(--color-secondary);
+}
+
+.skillText {
+    flex: 1;
+}
+
+.aboutImage {
+    width: 35%;
+}
+
+.skill:hover {
+    background-size: 100% 100%;
+}
+
+.skill h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--color-text);
+}
+
+.skill p {
+    font-size: 18px;
+    color: var(--color-text);
+}
+
+@media screen and (max-width: 830px) {
+    .container {
+        background-color: transparent;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .aboutImage {
+        display: none;
+    }
+
+    .skillList {
+        margin-top: 29px;
+    }
+
+    .skill {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
