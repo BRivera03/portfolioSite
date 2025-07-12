@@ -1,0 +1,34 @@
+[
+    {
+        "name": "HTML",
+        "imgSrc":"skills/html.png"
+    },
+    {
+        "name": "CSS",
+        "imgSrc":"skills/css.png"
+    },
+    {
+        "name": "JavaScript",
+        "imgSrc":"skills/javascript.png"
+    },
+    {
+        "name": "React",
+        "imgSrc":"skills/react.png"
+    },
+    {
+        "name": "Java",
+        "imgSrc":"skills/java.png"
+    },
+    {
+        "name": "Node.js",
+        "imgSrc":"skills/node.png"
+    },
+    {
+        "name": "Figma",
+        "imgSrc":"skills/figma.png"
+    },
+    {
+        "name":"Procreate",
+        "imgSrc":"skills/procreate.png"
+    }
+]

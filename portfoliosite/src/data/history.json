@@ -1,0 +1,14 @@
+    [
+    {
+        "name": "Software Engineer",
+        "company": "Tech Company",
+        "duration": "2020 - Present",
+        "imgSrc": "history/software-engineer.png"
+    },
+    {
+        "name": "Web Developer",
+        "company": "Another Tech Company",
+        "duration": "2018 - 2020",
+        "imgSrc": "history/web-developer.png"
+    }
+]
