@@ -1,0 +1,26 @@
+[
+    {
+        "title": "ClickDrive",
+        "description": "Description for Project 1", 
+        "imgSrc": "../assets/projectsPlaceholder.png",
+        "skills": ["HTML", "CSS", "JavaScript", "React"],
+        "demo": "https://example.com/demo1",
+        "source": "https://github.com/user/project1"
+    },
+    {
+        "title": "Dreams",
+        "description": "Description for Project 2",
+        "imgSrc": "../assets/projectsPlaceholder.png",
+        "skills": ["HTML", "CSS", "JavaScript"],
+        "demo": "https://example.com/demo2",
+        "source": "https://github.com/user/project2"
+    },
+    {
+        "title": "WIRent",
+        "description": "Description for Project 3",
+        "imgSrc": "../assets/projectsPlaceholder.png",
+        "skills": ["React", "Node.js", "MongoDB"],
+        "demo": "https://example.com/demo3",
+        "source": "https://github.com/user/project3"    
+    }
+]
